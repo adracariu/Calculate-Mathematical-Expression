@@ -1,4 +1,4 @@
-public class main2 {
+public class Main {
     public static void main(String[] args) {
 
         System.out.println(calculateParantheses("2+4+2+(2+20*10+(7*2*6)/10*100+(4+2+(4+6+8))+2+2+1)"));
