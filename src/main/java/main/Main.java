@@ -166,8 +166,7 @@ public class main2 {
                 }
             }
         }
-        s = expression;
-        return s;
+        return expression;
     }
 
     public static String addAndSubtract (String s) {
