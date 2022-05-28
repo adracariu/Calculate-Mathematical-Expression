@@ -1,33 +1,9 @@
-package main;
-
-import main.beans.Cerc;
-import org.springframework.context.access.ContextJndiBeanFactoryLocator;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
-
-import java.nio.channels.ScatteringByteChannel;
-import java.security.interfaces.DSAPublicKey;
-import java.util.Locale;
-
-public class Main {
+public class main2 {
     public static void main(String[] args) {
-        FileSystemXmlApplicationContext context = null;
 
         System.out.println(calculateParantheses("2+4+2+(2+20*10+(7*2*6)/10*100+(4+2+(4+6+8))+2+2+1)"));
         System.out.println(calculateParantheses("(-4*(3+23)/(-9)*(-10+67-90)/(78+2)/3+4-((-9*-11)/-11)*-4)*2"));
 
-//        try {
-//
-//            context = new FileSystemXmlApplicationContext("C:\\Users\\araca\\IdeaProjects\\java-collections-fundamentals\\java4c2e1\\src\\main\\java\\main\\config\\appContext.xml");
-//            Cerc cerc = context.getBean(Cerc.class);
-//            System.out.println(cerc.getRaza());
-//            System.out.println(cerc.getCentru().getX());
-//            System.out.println(cerc.getCentru().getY());
-//
-//        }finally{
-//            if(context != null){
-//                context.close();
-//            }
-//        }
     }
 
     public static double calculateParantheses(String s) {
